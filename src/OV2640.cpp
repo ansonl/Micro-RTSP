@@ -35,7 +35,7 @@ camera_config_t esp32cam_config{
     .frame_size = FRAMESIZE_SVGA,
     .jpeg_quality = 12, //0-63 lower numbers are higher quality
     .fb_count = 2,      // if more than one i2s runs in continous mode.  Use only with jpeg
-    .grab_mode = CAMERA_GRAB_WHEN_EMPTY
+    //.grab_mode = CAMERA_GRAB_WHEN_EMPTY
 };
 
 camera_config_t esp32cam_aithinker_config{
@@ -71,7 +71,7 @@ camera_config_t esp32cam_aithinker_config{
     .frame_size = FRAMESIZE_VGA,
     .jpeg_quality = 12, //0-63 lower numbers are higher quality
     .fb_count = 2,      // if more than one i2s runs in continous mode.  Use only with jpeg
-    .grab_mode = CAMERA_GRAB_WHEN_EMPTY
+    //.grab_mode = CAMERA_GRAB_WHEN_EMPTY
 };
 
 camera_config_t esp32cam_ttgo_t_config{
@@ -102,7 +102,7 @@ camera_config_t esp32cam_ttgo_t_config{
     .frame_size = FRAMESIZE_SVGA,
     .jpeg_quality = 12, //0-63 lower numbers are higher quality
     .fb_count = 2,      // if more than one i2s runs in continous mode.  Use only with jpeg
-    .grab_mode = CAMERA_GRAB_WHEN_EMPTY
+    //.grab_mode = CAMERA_GRAB_WHEN_EMPTY
 };
 
 void OV2640::done(void)
